@@ -16,6 +16,8 @@ properties:
   anypoint.platform.coreservice_base_uri: https://eu1.anypoint.mulesoft.com/accounts
   anypoint.platform.visualizer.displayName: clivet-proc-employees
   anypoint.platform.config.analytics.agent.enabled: true
+secureProperties:
+  encrypt.key: ${ENCRYPT_KEY.getSecret()}
 anypoint:
   clientId: ${AP_CA_CLIENT_ID.getSecret()}
   clientSecret: ${AP_CA_CLIENT_SECRET.getSecret()}
@@ -36,3 +38,4 @@ secrets:
   AP_CA_CLIENT_SECRET: test_ap_ca_client_secret
   AP_CLIENT_ID: dev_ap_client_id
   AP_CLIENT_SECRET: dev_ap_client_secret
+  ENCRYPT_KEY: dev_encrypt_key
