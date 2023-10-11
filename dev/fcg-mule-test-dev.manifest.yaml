@@ -29,7 +29,7 @@ anypoint:
   host: "eu1.anypoint.mulesoft.com"
   businessGroupId: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
   ingress:
-    publicUrl: https://muleapi-dev.clivet.it/clivet-exp-internal
+    publicUrl: https://muleapi-dev.clivet.it/fcg-mule-test
     pathRewrite: false
     lastMileSecurity: false
     forwardSslSession: false
