@@ -8,7 +8,7 @@ properties:
   env: uat
 anypoint:
   clientId: ${AP_CA_CLIENT_ID.getSecret()}
-  clientSecret: ${AP_CA_CLIENT_SECRET}
+  clientSecret: ${AP_CA_CLIENT_SECRET.getSecret()}
   runtimeVersion: 4.4.0
   name: fcg-mule-test-dev
   environment: Dev
