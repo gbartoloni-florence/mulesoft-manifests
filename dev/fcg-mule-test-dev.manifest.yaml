@@ -7,8 +7,8 @@ deploymentType: cloudhub2
 properties:
   env: dev
   anypoint.platform.base_uri: https://eu1.anypoint.mulesoft.com/
-  anypoint.platform.client_id: 7ce65865ef49404f947e759095ca1e1e
-  anypoint.platform.client_secret: 030AaceF1D27484Db2e138c0ABCEe371
+  anypoint.platform.client_id: ${AP_CLIENT_ID.getSecret()}
+  anypoint.platform.client_secret: ${AP_CLIENT_SECRET.getSecret()}
   anypoint.platform.visualizer.layer: System
   anypoint.platform.platform_base_uri: https://eu1.anypoint.mulesoft.com/apiplatform
   anypoint.platform.analytics_base_uri: https://analytics-ingest.eu1.anypoint.mulesoft.com/
@@ -34,3 +34,5 @@ anypoint:
 secrets: 
   AP_CA_CLIENT_ID: test_ap_ca_client_id
   AP_CA_CLIENT_SECRET: test_ap_ca_client_secret
+  AP_CLIENT_ID: dev_ap_client_id
+  AP_CLIENT_SECRET: dev_ap_client_secret
