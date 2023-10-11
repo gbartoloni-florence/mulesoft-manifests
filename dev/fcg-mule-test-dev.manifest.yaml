@@ -1,8 +1,8 @@
 ---
 artifact:
-  artifactId: fcg-mule-test
+  artifactId: clivet-sys-oracle
   groupId: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
-  version: 1.1.0
+  version: 0.3.4-SNAPSHOT
 deploymentType: cloudhub2
 properties:
   env: uat
