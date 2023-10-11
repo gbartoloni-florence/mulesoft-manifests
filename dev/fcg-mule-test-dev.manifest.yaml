@@ -1,11 +1,21 @@
 ---
 artifact:
-  artifactId: clivet-sys-oracle
+  artifactId: clivet-proc-employees
   groupId: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
-  version: 0.3.4-SNAPSHOT
+  version: 0.2.0-SNAPSHOT
 deploymentType: cloudhub2
 properties:
-  env: uat
+  env: dev
+  anypoint.platform.base_uri: https://eu1.anypoint.mulesoft.com/
+  anypoint.platform.client_id: 7ce65865ef49404f947e759095ca1e1e
+  anypoint.platform.client_secret: 030AaceF1D27484Db2e138c0ABCEe371
+  anypoint.platform.visualizer.layer: System
+  anypoint.platform.platform_base_uri: https://eu1.anypoint.mulesoft.com/apiplatform
+  anypoint.platform.analytics_base_uri: https://analytics-ingest.eu1.anypoint.mulesoft.com/
+  anypoint.platform.contracts_base_uri: https://eu1.anypoint.mulesoft.com/apigateway/ccs
+  anypoint.platform.coreservice_base_uri: https://eu1.anypoint.mulesoft.com/accounts
+  anypoint.platform.visualizer.displayName: clivet-proc-employees
+  anypoint.platform.config.analytics.agent.enabled: true
 anypoint:
   clientId: ${AP_CA_CLIENT_ID.getSecret()}
   clientSecret: ${AP_CA_CLIENT_SECRET.getSecret()}
