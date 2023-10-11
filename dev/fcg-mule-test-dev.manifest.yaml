@@ -26,6 +26,11 @@ anypoint:
   organization: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
   host: "eu1.anypoint.mulesoft.com"
   businessGroupId: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
+  ingress:
+    publicUrl: https://muleapi-dev.clivet.it/clivet-exp-internal
+    pathRewrite: false
+    lastMileSecurity: false
+    forwardSslSession: false
 secrets: 
   AP_CA_CLIENT_ID: test_ap_ca_client_id
   AP_CA_CLIENT_SECRET: test_ap_ca_client_secret
