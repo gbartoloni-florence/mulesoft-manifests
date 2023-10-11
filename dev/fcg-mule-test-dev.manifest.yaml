@@ -7,7 +7,7 @@ deploymentType: cloudhub2
 properties:
   env: uat
 anypoint:
-  clientId: ${AP_CA_CLIENT_ID}
+  clientId: ${AP_CA_CLIENT_ID.getSecret()}
   clientSecret: ${AP_CA_CLIENT_SECRET}
   runtimeVersion: 4.4.0
   name: fcg-mule-test-dev
