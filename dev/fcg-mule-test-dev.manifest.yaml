@@ -12,9 +12,10 @@ anypoint:
   runtimeVersion: 4.4.0
   name: fcg-mule-test-dev
   environment: Dev
-  deploymentTargetId: "e8006e12-eb8d-49be-bb2c-8f190f475c2c"
+  deploymentTargetId: "Clivet-PS"
   organization: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
   host: "eu1.anypoint.mulesoft.com"
+  businessGroupId: "b3f97fe0-4ea0-445f-9376-2cd9d71f80c8"
 secrets: 
   AP_CA_CLIENT_ID: test_ap_ca_client_id
   AP_CA_CLIENT_SECRET: test_ap_ca_client_secret
